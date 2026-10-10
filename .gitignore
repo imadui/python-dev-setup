@@ -1,0 +1,99 @@
+# ==========================================
+# Environments & Virtual Environments
+# ==========================================
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Python Bytecode & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Linting, Formatting, Testing & Coverage
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+.tox/
+
+# ==========================================
+# Jupyter Notebooks & Interactive
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Secrets, Environment Variables & Credentials
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+secrets.*
+
+# Keep safe public templates
+!.env.example
+!.env.template
+
+# ==========================================
+# Operating System & Editor Artifacts
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# VS Code - Keep project settings, ignore user state
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ==========================================
+# Temporary Files, Logs & Scratch Artifacts
+# ==========================================
+*.log
+*.tmp
+.agent-tmp/
+.playwright-mcp/
